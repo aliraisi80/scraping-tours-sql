@@ -37,5 +37,5 @@ if __name__ == "__main__":
       if extracted != "No upcoming tours":
          if extracted not in read("deta.txt"):
             store(extracted)
-            send_email(message="Hey, you found new music event! ")
-      time.sleep(5)#wait for 10 seconds before the next check
+            send_email(message="Subgect: Test',\n  Hey, you found new music event!")
+      time.sleep(10)
